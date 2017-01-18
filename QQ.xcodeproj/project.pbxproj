@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F859531FB213B56FAD990B /* libPods-QQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B11E42A45A7390BA6C1E8D07 /* libPods-QQ.a */; };
+		2FBB1F411E2E272F0029C793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB1F401E2E272F0029C793 /* main.m */; };
+		2FBB1F441E2E272F0029C793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB1F431E2E272F0029C793 /* AppDelegate.m */; };
+		2FBB1F471E2E272F0029C793 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB1F461E2E272F0029C793 /* ViewController.m */; };
+		2FBB1F4A1E2E272F0029C793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB1F481E2E272F0029C793 /* Main.storyboard */; };
+		2FBB1F4C1E2E272F0029C793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB1F4B1E2E272F0029C793 /* Assets.xcassets */; };
+		2FBB1F4F1E2E272F0029C793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB1F4D1E2E272F0029C793 /* LaunchScreen.storyboard */; };
+		2FBB1F5A1E2E2F7F0029C793 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB1F581E2E2F7F0029C793 /* ChatCell.m */; };
+		2FBB1F5B1E2E2F7F0029C793 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBB1F591E2E2F7F0029C793 /* ChatCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBB1F3C1E2E272F0029C793 /* QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBB1F401E2E272F0029C793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FBB1F421E2E272F0029C793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FBB1F431E2E272F0029C793 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FBB1F451E2E272F0029C793 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FBB1F461E2E272F0029C793 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FBB1F491E2E272F0029C793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBB1F4B1E2E272F0029C793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBB1F4E1E2E272F0029C793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBB1F501E2E272F0029C793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBB1F561E2E28E50029C793 /* QQ.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQ.pch; sourceTree = "<group>"; };
+		2FBB1F571E2E2F7F0029C793 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		2FBB1F581E2E2F7F0029C793 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		2FBB1F591E2E2F7F0029C793 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		66F0328D1C01D76134AD541C /* Pods-QQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQ/Pods-QQ.debug.xcconfig"; sourceTree = "<group>"; };
+		B11E42A45A7390BA6C1E8D07 /* libPods-QQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAA4A17C8464796B2E02E83 /* Pods-QQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQ/Pods-QQ.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBB1F391E2E272F0029C793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F859531FB213B56FAD990B /* libPods-QQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBB1F331E2E272F0029C793 = {
+			isa = PBXGroup;
+			children = (
+				2FBB1F3E1E2E272F0029C793 /* QQ */,
+				2FBB1F3D1E2E272F0029C793 /* Products */,
+				F4BD8B68170FC9D86EDAE297 /* Pods */,
+				3D345AEDD0F996810A9429F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBB1F3D1E2E272F0029C793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB1F3C1E2E272F0029C793 /* QQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBB1F3E1E2E272F0029C793 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB1F421E2E272F0029C793 /* AppDelegate.h */,
+				2FBB1F431E2E272F0029C793 /* AppDelegate.m */,
+				2FBB1F451E2E272F0029C793 /* ViewController.h */,
+				2FBB1F461E2E272F0029C793 /* ViewController.m */,
+				2FBB1F481E2E272F0029C793 /* Main.storyboard */,
+				2FBB1F571E2E2F7F0029C793 /* ChatCell.h */,
+				2FBB1F581E2E2F7F0029C793 /* ChatCell.m */,
+				2FBB1F591E2E2F7F0029C793 /* ChatCell.xib */,
+				2FBB1F4B1E2E272F0029C793 /* Assets.xcassets */,
+				2FBB1F4D1E2E272F0029C793 /* LaunchScreen.storyboard */,
+				2FBB1F501E2E272F0029C793 /* Info.plist */,
+				2FBB1F3F1E2E272F0029C793 /* Supporting Files */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		2FBB1F3F1E2E272F0029C793 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB1F401E2E272F0029C793 /* main.m */,
+				2FBB1F561E2E28E50029C793 /* QQ.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D345AEDD0F996810A9429F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B11E42A45A7390BA6C1E8D07 /* libPods-QQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4BD8B68170FC9D86EDAE297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F0328D1C01D76134AD541C /* Pods-QQ.debug.xcconfig */,
+				BAAA4A17C8464796B2E02E83 /* Pods-QQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBB1F3B1E2E272F0029C793 /* QQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBB1F531E2E272F0029C793 /* Build configuration list for PBXNativeTarget "QQ" */;
+			buildPhases = (
+				CDC76F6AD5C27F96EACACC35 /* [CP] Check Pods Manifest.lock */,
+				2FBB1F381E2E272F0029C793 /* Sources */,
+				2FBB1F391E2E272F0029C793 /* Frameworks */,
+				2FBB1F3A1E2E272F0029C793 /* Resources */,
+				8F985CA12E6E303C5E6B74CF /* [CP] Embed Pods Frameworks */,
+				1F4586FE1C11B6489D36771E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQ;
+			productName = QQ;
+			productReference = 2FBB1F3C1E2E272F0029C793 /* QQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBB1F341E2E272F0029C793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yanice;
+				TargetAttributes = {
+					2FBB1F3B1E2E272F0029C793 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FBB1F371E2E272F0029C793 /* Build configuration list for PBXProject "QQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBB1F331E2E272F0029C793;
+			productRefGroup = 2FBB1F3D1E2E272F0029C793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBB1F3B1E2E272F0029C793 /* QQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBB1F3A1E2E272F0029C793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBB1F4F1E2E272F0029C793 /* LaunchScreen.storyboard in Resources */,
+				2FBB1F5B1E2E2F7F0029C793 /* ChatCell.xib in Resources */,
+				2FBB1F4C1E2E272F0029C793 /* Assets.xcassets in Resources */,
+				2FBB1F4A1E2E272F0029C793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4586FE1C11B6489D36771E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQ/Pods-QQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F985CA12E6E303C5E6B74CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQ/Pods-QQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC76F6AD5C27F96EACACC35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBB1F381E2E272F0029C793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBB1F471E2E272F0029C793 /* ViewController.m in Sources */,
+				2FBB1F5A1E2E2F7F0029C793 /* ChatCell.m in Sources */,
+				2FBB1F441E2E272F0029C793 /* AppDelegate.m in Sources */,
+				2FBB1F411E2E272F0029C793 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FBB1F481E2E272F0029C793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBB1F491E2E272F0029C793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBB1F4D1E2E272F0029C793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBB1F4E1E2E272F0029C793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBB1F511E2E272F0029C793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FBB1F521E2E272F0029C793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBB1F541E2E272F0029C793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F0328D1C01D76134AD541C /* Pods-QQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/QQ/QQ.pch";
+				INFOPLIST_FILE = QQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yanice.QQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		2FBB1F551E2E272F0029C793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAA4A17C8464796B2E02E83 /* Pods-QQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/QQ/QQ.pch";
+				INFOPLIST_FILE = QQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yanice.QQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBB1F371E2E272F0029C793 /* Build configuration list for PBXProject "QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBB1F511E2E272F0029C793 /* Debug */,
+				2FBB1F521E2E272F0029C793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBB1F531E2E272F0029C793 /* Build configuration list for PBXNativeTarget "QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBB1F541E2E272F0029C793 /* Debug */,
+				2FBB1F551E2E272F0029C793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBB1F341E2E272F0029C793 /* Project object */;
+}
